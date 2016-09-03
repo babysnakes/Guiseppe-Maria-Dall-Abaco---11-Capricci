@@ -38,6 +38,18 @@ capriccio = \context Staff \relative c {
             s1 \noBreak s1 \break
           }
           s1 \noBreak s1 \noBreak s1 \break
+          \repeat unfold 3 {
+            s1 \noBreak s1 \break
+          }
+          \pageBreak
+          \repeat unfold 4 {
+            s1 \noBreak s1 \noBreak s1 \break
+          }
+          \repeat unfold 6 {
+            s1 \noBreak s1 \break
+          }
+          s1 \noBreak s1 \noBreak s1 \break
+          \pageBreak
         }
         \new Voice {\capriccio}
       >>
